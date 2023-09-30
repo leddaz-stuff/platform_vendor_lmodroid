@@ -134,7 +134,7 @@ PRODUCT_PACKAGES += \
 endif
 
 # F-Droid
-ifneq ($(WITH_GMS),true)
+ifneq ($(INCLUDE_GAPPS),true)
 PRODUCT_PACKAGES += \
     F-Droid \
     F-DroidPrivilegedExtension
